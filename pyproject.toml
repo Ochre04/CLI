@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ctfo04"
+version = "0.1.0"
+description = ""
+authors = ["JoJoJux aka. J0J0HA <info@jojojux.de>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+ctfo04 = 'ctfo04.__main__:main'
